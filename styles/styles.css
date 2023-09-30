@@ -1,11 +1,52 @@
 body{
+    margin: 0;
     font-family: sans-serif;
 }
-
-#header{
-    top: 0;
+header{
     background-image: url('../images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
-    height: 900px;
+    text-align: center; 
+    width: 2000px;
+}
+#text{
+    width: 1000px;
+    background: #B1D4E0;
+    padding-top: 400px;
+    padding-bottom: 375px;
+    opacity: 0.8;
+}
+#items{
+    background-image: url('../images/items.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 2000px;
+    margin: auto;
+}
+
+#items > div{
+    background-color: white;
+    opacity: 0.8;
+    display: inline-block;
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    border: solid 4px black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.7s;
+}
+
+img{
+    width: 100px;
+    height: 100px;
 }
